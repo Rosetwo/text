@@ -47,25 +47,6 @@ print('时间是：'+str(data['list'][day5]['dt_txt']),
 
 
 
-
-
-
-def printwea(data,day):
-    print('时间是：'+str(data['list'][day1]['dt_txt']),
-      '城市温度是：'+str(data['list'][day1]['main']['temp']),
-      '城市气压是：'+str(data['list'][day1]['main']['pressure']),
-      '城市最低温度是：'+str(data['list'][day1]['main']['temp_min']),
-      '城市最高温度是：'+str(data['list'][day1]['main']['temp_max']))  
-
-
-
-
-
-
-
-
-
-
 adata=[]
 for i in range(38):
     date=data["list"][i]["dt_txt"]
